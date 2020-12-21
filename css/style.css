@@ -1053,13 +1053,13 @@ h3 {
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
   background: #C78665;
-  padding: 126px 55px;
+  padding: 126px 50px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   z-index: 10;
   opacity: 0.8;
-  transform: translate(50px;0px);
+  transform: translate(100px, -300px) rotate(45deg);
 
 }
 
