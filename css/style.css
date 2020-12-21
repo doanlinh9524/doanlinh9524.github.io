@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -495,7 +500,7 @@ h3 {
 
 /* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .section_title span {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Muli", sans-serif;
   color: #C78665;
@@ -506,11 +511,13 @@ h3 {
 
 /* line 18, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .section_title h3 {
-  font-size: 36px;
-  font-family: "Muli", sans-serif;
+  font-size: 45px;
+  /*font-family: "Muli", sans-serif;*/
   font-weight: 400;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-top: 20px;
+  font-family: 'Dancing Script', cursive;
+  color: #C78665;
 }
 
 @media (max-width: 767px) {
@@ -1324,7 +1331,7 @@ h3 {
 /* line 39, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
 .weeding_countdown_area .countdown_area .countdown_wrap .single_countdown h3 {
   font-size: 60px;
-  font-family: "Petit Formal Script", cursive;
+  font-family: 'Itim', cursive;
   font-weight: 400;
   color: #C78665;
   margin-bottom: 17px;
@@ -1342,6 +1349,7 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+  font-family: 'Itim', cursive;
 }
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
@@ -1686,12 +1694,14 @@ h3 {
   margin-top: 33px;
   display: block;
   margin-bottom: 11px;
+  font-family: 'Pacifico', cursive;
 }
 
 /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story h3 {
   font-size: 36px;
   color: #C78665;
+  font-family: 'Pacifico', cursive;
 }
 
 @media (max-width: 767px) {
