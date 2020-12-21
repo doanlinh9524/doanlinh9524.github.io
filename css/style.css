@@ -520,6 +520,16 @@ h3 {
   color: #C78665;
 }
 
+.section_title p {
+  font-size: 45px;
+  /*font-family: "Muli", sans-serif;*/
+  font-weight: 400;
+  /*text-transform: uppercase;*/
+  margin-top: 20px;
+  font-family: 'Dancing Script', cursive;
+  color: #C78665;
+}
+
 @media (max-width: 767px) {
   /* line 18, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
   .section_title h3 {
@@ -1273,8 +1283,15 @@ h3 {
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
 .weeding_countdown_area {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 75px;
+  position: relative;
+  z-index: 9;
+}
+
+.weeding_invite {
+  padding-top: 100px;
+  padding-bottom: 10px;
   position: relative;
   z-index: 9;
 }
@@ -1391,7 +1408,7 @@ h3 {
 .program_details_area .single_program .program_inner span {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Petit Formal Script", cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 /* line 27, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
@@ -1882,6 +1899,9 @@ h3 {
 .location_area {
   padding: 0 50px;
   position: relative;
+  padding-bottom: 120px;
+  padding-top: 200px;
+
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
@@ -1924,8 +1944,8 @@ h3 {
 /* line 24, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
 .location_area .location_info .location_inner {
   background: #fff;
-  width: 616px;
-  max-width: 616px;
+  width: 700px;
+  max-width: 700px;
   padding: 54px 60px 54px 60px;
 }
 
@@ -1948,6 +1968,7 @@ h3 {
   font-size: 36px;
   font-weight: 400;
   color: #C78665;
+  font-family: 'Dancing Script', cursive;
 }
 
 /* line 43, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
@@ -1965,7 +1986,7 @@ h3 {
   color: #C78665;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   /* line 54, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
   .location_area .location_info .location_inner .address_info {
     display: block !important;
