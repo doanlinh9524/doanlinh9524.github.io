@@ -1883,9 +1883,10 @@ h3 {
   /*width: 500px;*/
   height: 500px;
 
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  background-clip: border-box;
   overflow: hidden;
   position: relative;
 }
