@@ -1881,20 +1881,29 @@ h3 {
 
 /* line 71, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery {
+
+  display: block;
+  padding: 0;
+  margin: 0 0 10px 1%;
+  list-style: none;
+  min-height: 400px;
+/*  
   height: 500px;
-  width: auto;
+  width: auto;*/
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
   position: relative;
+  object-fit: contain;
+  text-align: center
 }
 
 /* line 80, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area .grid-item {
   overflow: hidden;
-  padding: 40px !important;
+  padding: 30px !important;
 }
 
 /* line 84, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
@@ -1902,8 +1911,11 @@ h3 {
 /*  position: absolute;
   left: 0;
   top: 0;*/
-/*  width: 100%;
-  height: auto;*/
+  min-height: 400px;
+  padding: 2em;
+  width: 100%;
+  display: block;
+  /*height: auto;*/
 }
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
