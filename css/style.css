@@ -1712,6 +1712,9 @@ h3 {
   display: block;
   margin-bottom: 11px;
   font-family: 'Pacifico', cursive;
+  font-weight: 100;
+  /*font-family: "Petit Formal Script", cursive;*/
+
 }
 
 /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
@@ -1719,6 +1722,9 @@ h3 {
   font-size: 36px;
   color: #C78665;
   font-family: 'Pacifico', cursive;
+  /*font-family: "Petit Formal Script", cursive;*/
+  font-weight: 100;
+
 }
 
 @media (max-width: 767px) {
@@ -1798,6 +1804,7 @@ h3 {
   font-size: 24px;
   color: #C78665;
   font-weight: 400;
+  font-family: 'Itim', cursive;
 }
 
 /* line 98, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
