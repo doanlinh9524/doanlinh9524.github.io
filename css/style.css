@@ -1886,7 +1886,7 @@ h3 {
   padding: 0;
   margin: 0 0 10px 1%;
   list-style: none;
-  min-height: 400px;
+  min-height: 800px;
 /*  
   height: 500px;
   width: auto;*/
@@ -1911,13 +1911,23 @@ h3 {
 /*  position: absolute;
   left: 0;
   top: 0;*/
-  min-height: 400px;
+  min-height: 800px;
   padding: 2em;
-  width: 100%;
+  width: 30%;
   display: block;
   /*height: auto;*/
 }
 
+@media screen and (max-width: 768px) {
+.gallery_area a {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+.gallery_area a {
+    width: 100%;
+  }
+}
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
 .location_area {
   padding: 0 50px;
