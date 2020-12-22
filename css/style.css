@@ -1869,7 +1869,6 @@ h3 {
 .gallery_area {
   padding: 0 50px;
   padding-top: 90px;
-  height: 
 }
 
 @media (max-width: 767px) {
@@ -1881,41 +1880,24 @@ h3 {
 
 /* line 71, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery {
-
-  display: block;
-  padding: 0;
-  margin: 0 0 10px 1%;
-  list-style: none;
-  min-height: 800px;
-/*  
+  /*width: 500px;*/
   height: 500px;
-  width: auto;*/
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
   position: relative;
-  object-fit: contain;
-  text-align: center
 }
 
 /* line 80, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area .grid-item {
   overflow: hidden;
-  padding: 30px !important;
+  padding: 20px !important;
 }
 
 /* line 84, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area a {
-/*  position: absolute;
-  left: 0;
-  top: 0;*/
-  min-height: 800px;
-  padding: 2em;
-  width: 30%;
-  display: block;
-  /*height: auto;*/
 }
 
 @media screen and (max-width: 768px) {
